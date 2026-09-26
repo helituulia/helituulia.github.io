@@ -1,0 +1,45 @@
+/* Karusellin kuvien koko */
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Karuselli mobiililaitteella */
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+/* Sivuston yleinen ulkoasu */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #243746;
+    background-color: #f4f9fb;
+}
+
+/* Navigaation väri */
+
+.navbar {
+    background-color: #1f5f7a !important;
+}
+
+/* Otsikoiden väri */
+
+h1, h2, h3 {
+    color: #1f5f7a;
+}
+
+/* Korttien ulkoasu */
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-title {
+    color: #1f5f7a;
+}
