@@ -1,1 +1,32 @@
+/* Sivun yleinen ulkoasu */
+body {
+    font-family: Arial, sans-serif;
+    color: #243746;
+    background-color: #f4f9fb;
+}
 
+/* Navigaation väri */
+.navbar {
+    background-color: #1f5f7a !important;
+}
+
+/* Otsikoiden väri */
+h1 {
+    color: #1f5f7a;
+}
+
+/* Säätietojen otsikot */
+h3 {
+    color: #1f5f7a;
+}
+
+/* Säätiedot */
+#vastaus {
+    margin-top: 20px;
+}
+
+/* Säätiedotuksen kuva */
+#vastaus img {
+    width: 100px;
+    height: 100px;
+}
