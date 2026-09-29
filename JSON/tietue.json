@@ -1,0 +1,34 @@
+{
+    "otsikko": "JSON-datan käsittely",
+    "kuvaus": "Tälle sivustolle haetaan JSON-muotoista dataa",
+    "kuva": "../images/alykello.jpg",
+    "opintojakso": {
+        "nimi": "Digitekniikat",
+        "tunnus": "DIG007AS2A",
+        "opintopisteet": 5
+    },
+    "sisalto": [
+    "low-code",
+    "sisällönhallintajärjestelmät",
+    "resposiivinen käyttöliittymä ja komponentit",
+    "tiedon haku julkisista palveluista rest-rajapinnan yli"
+],
+"tekniikat": [
+    {
+        "aihe": "low-code",
+        "linkki": "https://www.weebly.com/"
+    },
+    {
+        "aihe": "wordpress",
+        "linkki": "https://wordpress.com/"
+    },
+    {
+        "aihe": "bootstrap",
+        "linkki": "https://getbootstrap.com/"
+    },
+    {
+        "aihe": "JSON",
+        "linkki": "https://www.json.org/json-en.html"
+    }
+]
+}
