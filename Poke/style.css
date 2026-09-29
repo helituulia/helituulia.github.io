@@ -1,1 +1,23 @@
+/* Sivun yleinen ulkoasu */
+body {
+    font-family: Arial, sans-serif;
+    color: #243746;
+    background-color: #f4f9fb;
+}
 
+/* Navigaation väri */
+.navbar {
+    background-color: #1f5f7a !important;
+}
+
+/* Otsikoiden väri */
+h1 {
+    color: #1f5f7a;
+}
+
+/* Pokemonin kuvan koko */
+#kuva2 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
