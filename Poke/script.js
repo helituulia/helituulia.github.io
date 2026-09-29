@@ -27,6 +27,8 @@ function poke() {
         .catch(function (error) {
             document.getElementById("nimi").innerHTML =
                 "<p>Tietoa ei pystytä hakemaan</p>";
+
+            document.getElementById("kuva2").innerHTML = "";
         });
 
     // Tyhjennetään hakukenttä
