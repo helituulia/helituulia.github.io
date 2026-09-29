@@ -28,7 +28,6 @@ function poke() {
 
     return response.json();
 })
-        })
 
         // Käsitellään JSON-muotoinen vastaus
         .then(function (responseJson) {
