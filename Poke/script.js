@@ -1,3 +1,6 @@
+// Tallennetaan haetun Pokemonin tiedot
+let pokemon;
+
 // Tallennetaan Pokemonin nimi muuttujaan
 let name;
 
@@ -47,6 +50,9 @@ function poke() {
 
 // Näytetään Pokemonin kuva ja nimi
 function pokekuva(obj) {
+    
+    // Tallennetaan Pokemonin tiedot
+    pokemon = obj;
 
     // Tallennetaan muuttujaan linkki, josta löytyy Pokemonin kuva
     let pokeurl = obj.sprites.front_default;
@@ -55,7 +61,23 @@ function pokekuva(obj) {
     document.getElementById("kuva2").innerHTML =
         "<img src=" + pokeurl + ">";
 
+    // Lisätään Käännä-painike
+    document.getElementById("kaanna").innerHTML =
+    "<button onclick=\"kaannaPoke()\">Käännä</button>";
+
     // Kirjoitetaan nimi sivulle
     document.getElementById("nimi").innerHTML =
         "<b>" + name + "</b>";
 }
+
+// Käännetään Pokemon selkäpuolelle
+function kaannaPoke() {
+
+    // Haetaan Pokemonin selkäpuolen kuva
+    let pokeurl = pokemon.sprites.back_default;
+
+    // Korvataan etupuolen kuva selkäpuolen kuvalla
+    document.getElementById("kuva2").innerHTML =
+        "<img src=" + pokeurl + ">";
+}
+
