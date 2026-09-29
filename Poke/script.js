@@ -4,6 +4,9 @@ let name;
 // Pokemon-haku
 function poke() {
 
+    // Tyhjennetään edellisen haun kuva
+    document.getElementById("kuva2").innerHTML = "";
+
     // Tallennetaan annettu Poken nimi ja muutetaan se pieniksi kirjaimiksi
     const pokeName = document.getElementById("pokemonName").value.toLowerCase();
 
