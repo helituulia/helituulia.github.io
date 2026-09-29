@@ -18,7 +18,13 @@ function poke() {
 
         // Muunnetaan vastaus JSON-muotoon
         .then(function (response) {
-            return response.json();
+
+    if (!response.ok) {
+        throw new Error("Pokemonia ei löytynyt");
+    }
+
+    return response.json();
+})
         })
 
         // Käsitellään JSON-muotoinen vastaus
