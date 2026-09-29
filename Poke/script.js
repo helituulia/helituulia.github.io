@@ -78,5 +78,12 @@ function kaannaPoke() {
     // Korvataan etupuolen kuva selkäpuolen kuvalla
     document.getElementById("kuva2").innerHTML =
         "<img src=" + pokeurl + ">";
+
+    // Näytetään Pokemonin kolme ominaisuutta
+document.getElementById("ominaisuudet").innerHTML =
+    "<h3>Pokemonin ominaisuudet</h3>"
+    + "Korkeus: " + pokemon.height + "<br>"
+    + "Paino: " + pokemon.weight + "<br>"
+    + "Tyyppi: " + pokemon.types[0].type.name;
 }
 
