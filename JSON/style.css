@@ -1,0 +1,23 @@
+/* JSON-tehtävän yleinen ulkoasu */
+body {
+    font-family: Arial, sans-serif;
+    color: #243746;
+    background-color: #f4f9fb;
+}
+
+/* Navigaation väri */
+.navbar {
+    background-color: #1f5f7a !important;
+}
+
+/* Otsikoiden väri */
+h1, h2, h3 {
+    color: #1f5f7a;
+}
+
+/* JSON-kuvan koko */
+#vastaus img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
