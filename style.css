@@ -43,3 +43,11 @@ h1, h2, h3 {
 .card-title {
     color: #1f5f7a;
 }
+
+/*JSON-tehtävän kuva */
+
+#vastaus img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
